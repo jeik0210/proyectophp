@@ -54,10 +54,16 @@
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
 </head>
+ <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <!-- use jssor.slider.mini.js (40KB) instead for release -->
+    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="../js/jssor.js"></script>
+    <script type="text/javascript" src="../js/jssor.slider.js"></script>
+   
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
     <div class="row-fluid">
         <div class="span6" align="center">
-        	<img src="img/logo.png">
+        	<img src="img/logo.png" alt="">
         </div>
         <div class="span6">
         	<?php

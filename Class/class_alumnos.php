@@ -1,7 +1,7 @@
 <?php
 class Consultar_Salones{
 	private $consulta;
-	private $fetch;
+	private $fetch; 
 	
 	function __construct($codigo){
 		$this->consulta = mysql_query("SELECT * FROM salones WHERE id='$codigo'");

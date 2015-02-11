@@ -35,7 +35,7 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #f5f5f5;
-	background-image: url(img/fondoP.png);
+	background-image: url(img/pared.jpg);
       }
 
       .form-signin {
@@ -83,11 +83,28 @@
 
     <div class="container">
       <form name="form1" method="post" action="" class="form-signin">
+         <ul class="nav nav-tabs">
+  
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      Adminsitrador <span class="caret"></span>
+
+    </a>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="index.php">Administrador</a></li>
+      <li><a href="index1.php">Alumno</a></li>
+      <li><a href="">Docentes</a></li>
+    </ul>
+  </li>
+  
+</ul>
+
         <h2 class="form-signin-heading">Bienvenid@s</h2>
         <input type="text" name="usuario" class="input-block-level" placeholder="Usuario" autocomplete="off">
         <input type="password" name="contra" class="input-block-level" placeholder="Contraseña" autocomplete="off">
         <button class="btn btn-large btn-primary" type="submit">Iniciar</button>
         <p>&nbsp;</p>
+        <iframe name="body" src="slider-master/demos-jquery/fis.html"  frameborder="0" height="350" width="300" ></iframe>
 <?php
 		$act="1";
 		if(!empty($_POST['usuario']) and !empty($_POST['contra'])){

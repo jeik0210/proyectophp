@@ -16,6 +16,7 @@
 			$nombre=$dato['nom'];
 			$palabra=explode(" ", $nombre);
 			$nomb=$palabra[0];
+      
 		}
 ?>
 <!DOCTYPE html>
@@ -108,7 +109,7 @@ body {
             </li>
             -->
             <li class="dropdown">
-              <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Reportes <b class="caret"></b></a>
+              <a href="img/fis4.jpg" id="drop2" role="button" >Reportes </a>
               <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="r_alumnos.php" target="admin"><i class="icon-th-list"></i> 
                 Listado de Alumnos</a></li>
@@ -136,7 +137,7 @@ body {
   </tr>
   <tr>
     <td>
-    <pre><center><strong><a href="https://www.facebook.com/soft.unicorn" target="_blank" style="color:#000">Desarrollado por Soft Unicorn 2013 - Colombia</a></strong></center></pre>
+    <pre><center><strong><a href="https://www.facebook.com/soft.unicorn" target="_blank" style="color:#000">Desarrollado por alumnos del V ciclo fis -Peru</a></strong></center></pre>
     </td>
   </tr>
 </table>
